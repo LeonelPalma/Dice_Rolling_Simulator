@@ -5,14 +5,14 @@ import random
 # toplevel widget which represents the main window of an application
 root = tkinter.Tk()
 root.geometry('400x400')
-root.title('Data Flair Roll the Dice')
+root.title('Roll the Dice')
 
 # Adding label into the frame
 l0 = tkinter.Label(root, text="")
 l0.pack()
 
 # adding label with different font and formatting
-l1 = tkinter.Label(root, text="Hello from Data Flair!", fg = "light green",
+l1 = tkinter.Label(root, text="Hello, let's go!", fg = "light green",
         bg = "dark green",
         font = "Helvetica 16 bold italic")
 l1.pack()
